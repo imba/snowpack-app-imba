@@ -1,0 +1,22 @@
+{
+    "mount": {
+        "src": "/",
+        "public": "/"
+    },
+    "plugins": [
+    [
+        "imba-snowpack",
+        {
+            "entrypoints": ["app-root"]
+        }
+    ]
+    ],
+    "installOptions": {
+    },
+    "devOptions": {
+    "open": "default",
+    "bundle": true
+    },
+    "buildOptions": {
+    }
+}

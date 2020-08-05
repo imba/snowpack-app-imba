@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "dev": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "devDependencies": {
+    "imba-snowpack": "^0.0.5"
+  }
+}
