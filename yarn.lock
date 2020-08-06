@@ -1358,7 +1358,7 @@ slash@^3.0.0:
   resolved "https://registry.yarnpkg.com/slash/-/slash-3.0.0.tgz#6539be870c165adbd5240220dbe361f1bc4d4634"
   integrity sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==
 
-snowpack@^2.7.5:
+snowpack@^0.0.6, snowpack@^2.7.5:
   version "2.7.6"
   resolved "https://registry.yarnpkg.com/snowpack/-/snowpack-2.7.6.tgz#7ad9e9a9f2ef1bcbc8c72d83fe3aa1e3457d629b"
   integrity sha512-39GwSXsOVYuRK+1MhUiL+/jMzT2VjrH4eAMGVsxXOfN3T2AunbrdyXC5HbSRLzNBamyX6EYZ81NHUOfFy65g8w==

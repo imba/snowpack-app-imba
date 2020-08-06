@@ -34,6 +34,14 @@ or
 yarn build
 
 ```
+### Add NPM Packages
+If you need to install any NPM packages, add the name to the install script in the `package.json` file. Then run `npm install` or `yarn` once again.
+```
+"install": [
+  "cowsay"
+],
+```
+
 ### Default Build Settings
 By default,
 - The build goes to a folder named `/public` at the root of your project folder.
