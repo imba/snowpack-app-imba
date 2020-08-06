@@ -1,9 +1,9 @@
 {
   "scripts": {
-    "dev": "snowpack dev",
-    "build": "snowpack build"
+    "start": "npx snowpack dev",
+    "build": "npx snowpack build"
   },
   "devDependencies": {
-    "imba-snowpack": "^0.0.5"
+    "imba-snowpack": "^0.0.6"
   }
 }
