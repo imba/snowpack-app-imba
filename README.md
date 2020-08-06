@@ -49,7 +49,8 @@ The app-root.js is referenced from the body of the index.html.
 
 ## Change settings
 You may modify your build directories in the package.json file.
-The default setup builds
+
+By default,
 - The build goes to a folder named `/public` at the root of your project folder.
 - The `/src` folder containing imba code is built into the `public/dist` directory
 - The `/static` folder containing your index.html and other files such as images is built at the root of the `/public/` directory by default.
