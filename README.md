@@ -58,13 +58,13 @@ Your public folder will look like this:
     favicon.ico
     index.html
 ```
-The app-root.js is referenced from the body of the index.html.
+The app-root.js is referenced from the body of the `index.html`.
 ```imba
 <script type="module" src="./dist/app-root.js"></script>
 ```
 
-## Modify Build Output
-You may modify your build directories in the package.json file.
+## Configure Build Output
+You may modify your build directories in the `package.json` file.
 ```json
 {
   "scripts": {
