@@ -1,7 +1,11 @@
 # Imba 2 + Snowpack App Template
 <img src="https://raw.githubusercontent.com/imba/template-snowpack/master/static/imba-snowpack-social-preview-1280x640.png?token=ADHTGL2XTONCPV33Z33WQ727FRLI2"></a>
 
-### Create project directory
+This project will get you up and running with Imba 2 bundled by snowpack.
+
+## Installation
+
+### Clone Repository
 ```
 git clone https://github.com/imba/template-snowpack foldername
 cd foldername
@@ -34,7 +38,7 @@ or
 yarn build
 
 ```
-### Add NPM Packages
+## Add NPM Packages
 If you need to install any NPM packages, add the name to the install script in the `package.json` file. Then run `npm install` or `yarn` once again.
 
 For example
@@ -44,7 +48,7 @@ For example
 ],
 ```
 
-### Default Build Output
+## Default Build Output
 By default,
 - The build goes to a folder named `/public` at the root of your project folder.
 - The `/src` folder containing imba code is built into the `public/dist` directory
