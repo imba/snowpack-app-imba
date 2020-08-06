@@ -37,14 +37,14 @@ yarn build
 ### Add NPM Packages
 If you need to install any NPM packages, add the name to the install script in the `package.json` file. Then run `npm install` or `yarn` once again.
 
-For example,
+For example
 ```
 "install": [
   "cowsay"
 ],
 ```
 
-### Default Build Settings
+### Default Build Output
 By default,
 - The build goes to a folder named `/public` at the root of your project folder.
 - The `/src` folder containing imba code is built into the `public/dist` directory
@@ -63,7 +63,7 @@ The app-root.js is referenced from the body of the index.html.
 <script type="module" src="./dist/app-root.js"></script>
 ```
 
-## Modify Build Options
+## Modify Build Output
 You may modify your build directories in the package.json file.
 ```json
 {
