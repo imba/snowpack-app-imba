@@ -36,6 +36,8 @@ yarn build
 ```
 ### Add NPM Packages
 If you need to install any NPM packages, add the name to the install script in the `package.json` file. Then run `npm install` or `yarn` once again.
+
+For example,
 ```
 "install": [
   "cowsay"
