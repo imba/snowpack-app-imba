@@ -1,5 +1,4 @@
 <img height="100" src="https://github.com/imba/brand/blob/master/imba-web-logo.png"></a> 
-<span size="50" height="100">❤️</span>
 <img height="100" src="https://avatars1.githubusercontent.com/u/44914786?s=200&v=4"></a>
 
 ### Create project directory
@@ -17,7 +16,7 @@ or
 yarn
 ```
 
-### Run server
+### Run Development Server
 ```
 npm run start
 ```
@@ -25,16 +24,15 @@ or
 ```
 yarn start
 ```
-### build
+### Production Build
 To build your project for production run
 ```
 npm run build
 ```
-if using yarn
+or
 ```
 yarn build
 ```
-
 Upon build, you will see the following output
 ```
 /public
@@ -59,7 +57,7 @@ The default setup builds
 ```json
 {
   "scripts": {
-    ...
+    "..."
   },
   "snowpack": {
     "mount": {
@@ -68,9 +66,9 @@ The default setup builds
     },
     "devOptions": {
       "out": "public",
-      ...
+      "..."
     },
-    ...
+    "..."
   }
 }
 
