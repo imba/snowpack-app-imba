@@ -13,17 +13,16 @@
       "open": "default",
       "bundle": true
     },
-    "install": [
-    ],
-    "installOptions": {
-    },
-    "buildOptions": {
-    },
+    "install": [],
+    "installOptions": {},
+    "buildOptions": {},
     "plugins": [
       [
         "imba-snowpack",
         {
-          "entrypoints": ["app-root"]
+          "entrypoints": [
+            "app-root"
+          ]
         }
       ]
     ]
