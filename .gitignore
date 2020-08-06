@@ -1,4 +1,5 @@
 Folders and files
+.vscode
 public/*
 public/bundle.*
 public/*.imba.js
