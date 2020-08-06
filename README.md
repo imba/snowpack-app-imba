@@ -1,5 +1,6 @@
-<img width="300" src="https://github.com/imba/brand/blob/master/imba-web-logo.png"></a><img width="80" src="https://avatars1.githubusercontent.com/u/44914786?s=200&v=4"></a>
-# Imba + Snowpack starter project
+<img height="100" src="https://github.com/imba/brand/blob/master/imba-web-logo.png"></a> 
+<span size="50" height="100">❤️</span>
+<img height="100" src="https://avatars1.githubusercontent.com/u/44914786?s=200&v=4"></a>
 
 ### Create project directory
 ```
@@ -34,7 +35,7 @@ if using yarn
 yarn build
 ```
 
-When we build our project with `yarn build` or `npm run build`, we will have the following output...
+Upon build, you will see the following output
 ```
 /public
     /dist
@@ -49,27 +50,36 @@ The app-root.js is referenced from the body of the index.html.
 
 ## Change settings
 You may modify your build directories under snowpack.config.json
-The current set up builds `/src` into `build/dist` and `/static` into `build`
+The default setup builds
+- The build goes to a folder named `/public` at the root of your project folder.
+- The `/src` folder containing imba code is built into the `public/dist` directory
+- The `/static` folder containing your index.html and other files such as images is built at the root of the `/public/` directory by default.
+
+
 ```json
-"mount": {
-    "src": "/dist",
-    "static": "/"
+{
+  "scripts": {
+    ...
+  },
+  "snowpack": {
+    "mount": {
+      "src": "/dist",
+      "static": "/"
+    },
+    "devOptions": {
+      "out": "public",
+      ...
+    },
+    ...
+  }
 }
-```
-For example, if we rename our source directories from `/src` to `/app` and we wish to build `/source` to `/build/app` and `/static` to `/build/static`, we need to do the following change to the snowpack.config.json
-```imba
-"mount": {
-    "app": "/app",
-    "static": "/static"
-```
-when we build our project with `yarn build` or `npm run build`, we will have the following output
-```
-/public
-    /app
-        app-root.js
-    /static
-        index.html
-        favicon.ico
+
 ```
 
-Happy Coding!
+> Note that the imba files, cannot be currently be compiled to the root of the build directory `"src": "/"`, so you must always specify a subdirectory for your compiled Imba code as `"src": "/foldername"`, and then update the reference in your index.html to match: `<script type="module" src="./foldername/app-root.js"></script>`.
+
+> If you need your output build directory to be named `/build` you may remove the `"out": "public"` option since snowpack will build to the `/build` directory by default.
+
+For more snowpack configuration options checkout the [snowpack documentation](https://www.snowpack.dev/#all-config-options).
+
+### Happy Coding!
