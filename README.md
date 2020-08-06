@@ -1,4 +1,6 @@
-<img width="300" src="https://github.com/imba/brand/blob/master/imba-web-logo.png"></a><h1> ❤️ </h1><img width="80" src="https://avatars1.githubusercontent.com/u/44914786?s=200&v=4"></a>
+<img width="300" src="https://github.com/imba/brand/blob/master/imba-web-logo.png"></a>
+<div> ❤️ </div>
+</span><img width="80" src="https://avatars1.githubusercontent.com/u/44914786?s=200&v=4"></a>
 
 ### Create project directory
 ```
