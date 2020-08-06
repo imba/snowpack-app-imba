@@ -1,6 +1,5 @@
 # Imba 2 + Snowpack App Template
-<img height="100" src="https://github.com/imba/brand/blob/master/imba-web-logo.png"></a> 
-<img height="100" src="https://avatars1.githubusercontent.com/u/44914786?s=200&v=4"></a>
+<img src="https://raw.githubusercontent.com/imba/template-snowpack/master/static/imba-snowpack-social-preview-1280x640.png?token=ADHTGL2XTONCPV33Z33WQ727FRLI2"></a>
 
 ### Create project directory
 ```
