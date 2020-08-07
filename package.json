@@ -29,6 +29,6 @@
   },
   "devDependencies": {
     "imba-snowpack": "^0.0.6",
-    "snowpack": "^0.0.6"
+    "snowpack": "^2.7.6"
   }
 }
