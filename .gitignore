@@ -1,6 +1,6 @@
 Folders and files
 .vscode
-public/*
+public/dist/app-root.js
 public/bundle.*
 public/*.imba.js
 public/*.imba.js.map
