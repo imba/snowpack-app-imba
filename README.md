@@ -6,6 +6,8 @@ This project will get you up and running with Imba 2 bundled by snowpack.
 
 ## Installation
 
+On GitHub you can use this repository as a template for new projects, just click Use this [template](https://github.com/imba/snowpack-app-imba/generate).
+
 ### Clone Repository
 
 ```
