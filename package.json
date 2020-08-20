@@ -2,7 +2,7 @@
   "scripts": {
     "start": "npx snowpack dev",
     "build": "npx snowpack build",
-    "dev": "npx snowpack dev",    
+    "dev": "npx snowpack dev"
   },
   "snowpack": {
     "mount": {
