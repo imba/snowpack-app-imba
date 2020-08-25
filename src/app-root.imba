@@ -32,7 +32,8 @@ tag app-root
 		min-height: 100vh
 	def render
 		<self%app>
-			<Logo[w:200px py:13]>
+			<Logo[w:200px pt:12]>
+			<h2[mt:0 c:gray6 fs:2em ff:sans]> "+ Snowpack"
 			<Card>
 	###
 	Here we have some scoped CSS. Any css declared within a tag component is scoped to that component.
@@ -64,7 +65,7 @@ tag Card
 			<span.reset  @click.reset> "reset"
 	css &
 		bg:white ff:sans shadow:xl
-		min-width:300px py:2em px:2em br:2
+		min-width:300px py:2em px:2em rd:2
 		display:flex fld:column ai:justify
 		& .reset
 			fs:2xl
