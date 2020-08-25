@@ -1,6 +1,5 @@
 # Snowpack App Template
-
-<img src="https://raw.githubusercontent.com/imba/template-snowpack/master/static/imba-snowpack-social-preview-1280x640.png?token=ADHTGL2XTONCPV33Z33WQ727FRLI2"></a>
+![Preview Image](https://raw.githubusercontent.com/imba/snowpack-app-imba/master/preview.png)
 
 This project will get you up and running with Imba 2 bundled by snowpack.
 
