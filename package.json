@@ -31,5 +31,8 @@
   "devDependencies": {
     "imba-snowpack": "^0.0.8",
     "snowpack": "^2.7.6"
+  },
+  "dependencies": {
+    "imba": "^2.0.0-alpha.89"
   }
 }
