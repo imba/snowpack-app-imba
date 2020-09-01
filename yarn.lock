@@ -640,11 +640,6 @@ execa@^4.0.3:
     signal-exit "^3.0.2"
     strip-final-newline "^2.0.0"
 
-faker@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/faker/-/faker-5.1.0.tgz#e10fa1dec4502551aee0eb771617a7e7b94692e8"
-  integrity sha512-RrWKFSSA/aNLP0g3o2WW1Zez7/MnMr7xkiZmoCfAGZmdkDQZ6l2KtuXHN5XjdvpRjDl8+3vf+Rrtl06Z352+Mw==
-
 fast-redact@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/fast-redact/-/fast-redact-2.0.0.tgz#17bb8f5e1f56ecf4a38c8455985e5eab4c478431"
@@ -831,6 +826,11 @@ imba@^2.0.0-alpha.77:
   version "2.0.0-alpha.79"
   resolved "https://registry.yarnpkg.com/imba/-/imba-2.0.0-alpha.79.tgz#66f8c5aa230e2151f400c3d870f167f3172bd36f"
   integrity sha512-NA3idB61kY2n3CVWRt96N9gnkwXHpLukRFvRQO7mbPBNOlmqmBnW76mC57rmAMaRrzrBrAbL9175IEc5KwKb8Q==
+
+imba@^2.0.0-alpha.89:
+  version "2.0.0-alpha.89"
+  resolved "https://registry.yarnpkg.com/imba/-/imba-2.0.0-alpha.89.tgz#94bfd112450c0eddd61a39eb7c55aaf89c3a2dbf"
+  integrity sha512-nJ1YsjAkHfxybx9cxSqfxodF1kQk3JmqPi0BeE8A+NyjrJPKhXW6o8eLvECS1m7ZsO+MiVfO/MVnwWUYtb2wAg==
 
 import-fresh@^3.1.0:
   version "3.2.1"
