@@ -14,7 +14,7 @@
       "open": "default",
       "bundle": true
     },
-    "install": [],
+    "install": ["faker"],
     "installOptions": {},
     "buildOptions": {},
     "plugins": [
@@ -31,5 +31,8 @@
   "devDependencies": {
     "imba-snowpack": "^0.0.8",
     "snowpack": "^2.7.6"
+  },
+  "dependencies": {
+    "faker": "^5.1.0"
   }
 }
